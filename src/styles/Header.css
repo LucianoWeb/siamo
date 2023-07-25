@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    background-color: #11153b;
+
+}
+.img-logo{
+    height: 4rem;
+
+}
+.nav-header{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-header a{
+    font-size: 1.2rem;
+    background-color: var(--color-primario2);
+    color: var(--color-secundario2);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+.nav-header a:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-fondo);
+    transform: translateX(5px) rotate(5deg) scale(1.1);
+    transition: .5s;
+
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: .5rem;
+}
+.languages .dropdown{
+    font-size: 1.5rem;
+    color: var(--color-fondo);
+}
+.img-flag{
+    height: 3rem;
+    border: 2px solid var(--color-fondo);
+    border-radius: 50%;
+}

@@ -1,0 +1,32 @@
+
+
+.main-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0)), url(../assets/ball2.png);
+    background-size: cover;
+    height: 91vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.main-texts{
+    padding: 8rem;
+}
+.main-texts h1{
+    font-size: 5rem;
+    color: var(--color-secundario2);
+   
+}
+.main-texts h1 span{
+    font-size: 3rem;
+    color: var(--color-fondo);
+}
+.main-texts p{
+    color: var(--color-fondo);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    max-width: 30rem;
+    letter-spacing: 4px;
+}
+.main-texts p span{
+    font-size: 1.8rem;
+    color: var(--color-secundario2);
+}
