@@ -1,0 +1,45 @@
+.where-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+   
+}
+.where-texts h3{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-primario);
+}
+.where-maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+ 
+}
+.where-maps .map{
+    width: 20rem;
+    height: 15rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+
+}
+
+.where-maps .div-maps{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    background-color:var(--color-primario);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.where-maps .div-maps p{
+    font-size: 1.3rem;
+    padding: .5rem;
+    font-weight: bold;
+    color: var(--color-fondo);
+}

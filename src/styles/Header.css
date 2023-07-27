@@ -1,9 +1,13 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0rem 2rem;
-    background-color: #11153b;
+    background-color: var(--color-primario);
+    position: fixed;
+    top: 0;
+width: 100%;
+    z-index: 1000;
 
 }
 .img-logo{
@@ -20,11 +24,14 @@ header{
     color: var(--color-secundario2);
     padding: .5rem 1rem;
     border-radius: 5px;
+   display: flex;
+   align-items: center;
+   gap: .8rem;
 }
 .nav-header a:hover{
     background-color: var(--color-secundario);
     color: var(--color-fondo);
-    transform: translateX(5px) rotate(5deg) scale(1.1);
+    transform: rotate(2deg) scale(1.05);
     transition: .5s;
 
 }

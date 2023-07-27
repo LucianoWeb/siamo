@@ -1,18 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 .main-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0)), url(../assets/ball2.png);
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../assets/ball2.png);
     background-size: cover;
     height: 91vh;
     width: 100%;
     background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 84% 100%, 66% 88%, 39% 100%, 23% 93%, 0 100%);
 }
 .main-texts{
-    padding: 8rem;
+    padding: 7rem 11rem;
 }
 .main-texts h1{
     font-size: 5rem;
     color: var(--color-secundario2);
+    font-family: 'Gochi Hand';
    
 }
 .main-texts h1 span{
@@ -23,7 +25,7 @@
     color: var(--color-fondo);
     margin-top: 1rem;
     font-size: 1.5rem;
-    max-width: 30rem;
+    max-width: 31rem;
     letter-spacing: 4px;
 }
 .main-texts p span{
