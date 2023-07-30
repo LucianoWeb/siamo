@@ -1,0 +1,32 @@
+.slider{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    box-shadow: 3px 3px 10px  black;
+    padding: 2rem 0;
+    border-radius: 10px;
+
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slider img{
+    height: 20rem;
+    width: 100%;
+
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.slick-prev::before{
+    color: black !important;
+}
+.slick-next::before{
+    color: black !important;
+
+}
+

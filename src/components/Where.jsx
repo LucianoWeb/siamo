@@ -1,11 +1,15 @@
 import React from 'react'
 import '../styles/Where.css'
 
+
+
+
 const Where = () => {
     return (
+   
         <div className='where-container'>
             <div className='where-texts'>
-                <h3>We are here right now: </h3>
+                <h3>Find us here: </h3>
             </div>
             <div className="where-maps">
                 <div className='div-maps'>
@@ -18,7 +22,10 @@ const Where = () => {
                 </div>
 
             </div>
+           
         </div>
+        
+     
     )
 }
 

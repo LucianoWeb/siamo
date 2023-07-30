@@ -55,23 +55,32 @@
     background-position: center center;
 }
 .div3{
-    display: flex;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+    margin-top: 8rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0)), url(../assets/bg.png);
+    padding: 3rem 3rem 0 3rem;
+    background-size: cover;
     justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    background:linear-gradient(to top, black, var(--color-primario));
-    padding: 2rem 2rem 0 2rem;
+    background-position: center;
 }
 .div3 img{
     height: 30rem;
 }
 .div3 p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     font-weight: 900;
     width: 30rem;
     color: var(--color-secundario2);
+
     letter-spacing: .2rem;
+}
+.div3 p span{
+    font-family: 'Gochi Hand';
+    color: var(--color-fondo);
+    font-size: 3.2rem;
+
 }
 .div3 div{
     display: grid;
@@ -81,5 +90,19 @@
     overflow: hidden;
 }
 .div3 div img{
-    height: 22rem;
+    height: 18rem;
+}
+.community h3{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--color-primario);
+    font-weight: bold;
+    margin-top: 8rem;
+
+  
+}
+.community   h3 span{
+    font-family:  'Gochi Hand';
+    color: var(--color-secundario);
+    font-size: 5rem;
 }

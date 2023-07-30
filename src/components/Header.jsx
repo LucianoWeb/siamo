@@ -5,7 +5,7 @@ import es from '../assets/es.png'
 import { AiFillCaretDown } from 'react-icons/ai';
 import { BiSolidContact } from 'react-icons/bi';
 import { AiOutlineHome } from 'react-icons/ai';
-import { MdEmojiEvents } from 'react-icons/md';
+import { IoIosPeople } from 'react-icons/io';
 
 
 
@@ -17,8 +17,8 @@ const Header = () => {
       </div>
         <nav className='nav-header'>
           <a href="#">What's Siamo <AiOutlineHome/></a>
-          <a href="#">Events <MdEmojiEvents/></a>
-          <a href="#">Contacto <BiSolidContact/></a>
+          <a href="#">Community <IoIosPeople/></a>
+          <a href="#">Contact <BiSolidContact/></a>
         </nav>
         <div className='languages'>
         <img className='img-flag' src={es} alt="spanish-language" />
