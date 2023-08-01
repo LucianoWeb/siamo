@@ -12,21 +12,22 @@
 
   
 }
+
 .where-texts h3{
     font-size: 4rem;
     text-align: center;
     color: var(--color-secundario2);
     margin-top: 5rem;
 }
+
 .where-maps{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     margin-top: 5rem;
- 
- 
 }
+
 .where-maps .map{
     width: 20rem;
     height: 15rem;
@@ -36,6 +37,7 @@
     opacity: 90%;
 
 }
+
 
 .where-maps .div-maps{
     display: grid;
@@ -52,4 +54,32 @@
     padding: 1rem;
     font-weight: bold;
     color: var(--color-secundario2);
+}
+@media (max-width:768px){
+    .where-container{
+        margin-top: 5rem;
+        clip-path: none;
+        padding: 1rem;
+        height: 70vh;
+    }
+    .where-texts h3{
+        font-size: 2.5rem;
+    
+    }
+    .where-maps{
+        margin-top: 3rem;
+        gap: .5rem;
+    }
+    .where-maps .map{
+        height: 10rem;
+        width: 11rem;
+    }
+    .where-maps .div-maps{
+        gap: 0;
+        border: 1px solid var(--color-fondo);
+    }
+    .where-maps .div-maps p{
+        padding-bottom: .5rem;
+        font-size: .8rem;
+    }   
 }

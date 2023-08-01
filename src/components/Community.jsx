@@ -72,8 +72,8 @@ const Community = () => {
             <div className='slider'>
 
                 <Slider {...settings}>
-                    {dataImages.map((image) => {
-                        return <img key={image.id} className="img-car" src={image.imgUrl} alt="" />
+                    {dataImages.map((image, index) => {
+                        return <img key={index} className="img-car" src={image} alt="siamo community" />
                     })}
                 </Slider>
             </div>

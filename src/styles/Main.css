@@ -1,5 +1,4 @@
 
-
 .main-container{
     background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../assets/ball2.png);
     background-size: cover;
@@ -17,6 +16,7 @@
     font-family: 'Gochi Hand';
    
 }
+
 .main-texts h1 span{
     font-size: 3rem;
     color: var(--color-fondo);
@@ -31,4 +31,38 @@
 .main-texts p span{
     font-size: 1.8rem;
     color: var(--color-secundario2);
+}
+
+@media (max-width:768px){
+    .main-container{
+        height: 70vh;
+        clip-path: none;
+        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.292)), url(../assets/ball2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .main-texts{
+        padding: 2rem;
+   
+        padding-top: 7rem;
+   
+    }
+    .main-texts h1{
+        font-size: 3rem;
+    }
+    .main-texts h1 span{
+        font-size: 2rem;
+ 
+    }
+    .main-texts p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        letter-spacing: 2px;
+    }
+    .main-texts p span{
+        font-size: 1.5rem;
+
+    }
 }

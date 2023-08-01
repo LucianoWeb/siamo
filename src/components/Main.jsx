@@ -3,12 +3,14 @@ import '../styles/Main.css'
 import gsap from 'gsap';
 import { useEffect } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { FormattedMessage } from 'react-intl';
+
 
 
 const Main = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger)
-    gsap.fromTo('#g1', {
+    gsap.fromTo('#Siamo', {
         x: -80,
         opacity: 0
     }, {
@@ -31,10 +33,10 @@ const Main = () => {
     
 }, [])
   return (
-  <div className='main-container'>
+  <div id='Home' className='main-container'>
     <div  className='main-texts'>
-    <h1 id='g1'><span>Welcome to</span> Siamo Street!</h1>
-    <p id='g2'>A place where everybody is welcome to be part of this growing family, united by our passion: <span>sports </span> </p>
+    <h1 ><span><FormattedMessage id='main.welcome' /></span><FormattedMessage id='main.siamo' /></h1>
+    <p id='g2'><FormattedMessage id='main.place' /><span><FormattedMessage id='main.sports' /> </span> </p>
     </div>
   </div>
   )
