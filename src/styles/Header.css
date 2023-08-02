@@ -34,21 +34,22 @@ header{
 @media(max-width:768px){
     header{
   
-        justify-content: center;
-        gap: .5rem;
+        justify-content: left;
+        gap: .2rem;
+        padding: .5rem 0rem;
     }
     .nav-header{
         gap: .3rem;
     }
     .nav-header a{
-        font-size: .8rem;
+        font-size: .9rem;
         padding: .3rem .6rem;
     }
     .nav-header .what{
         display: none;
     }
     .img-logo{
-        height: 3rem;
+        height: 2.5rem;
     }
 }
 .nav-header a:hover{
